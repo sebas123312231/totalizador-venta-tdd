@@ -1,15 +1,17 @@
-import sumar from "./sumador";
+import calcularSubtotal from './totalizador';
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const cantidad = document.querySelector('#cantidad');
+const precioUnitario = document.querySelector('#precio-unitario');
+const form = document.querySelector('#venta-form');
+const div = document.querySelector('#resultado-div');
 
-form.addEventListener("submit", (event) => {
+form.addEventListener('submit', (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const subtotal = calcularSubtotal(
+    Number.parseInt(cantidad.value),
+    Number.parseFloat(precioUnitario.value),
+  );
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = '<p>Subtotal: $' + subtotal + '</p>';
 });

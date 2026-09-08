@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-08T15:57:45.000Z",
+      "message": "feat: mostrar subtotal de la compra",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 87,
+      "additions": 48,
+      "deletions": 39,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
