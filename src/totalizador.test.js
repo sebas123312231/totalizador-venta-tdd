@@ -102,4 +102,16 @@ describe('Impuesto por estado', () => {
     // Assert
     expect(impuesto).toEqual({ porcentaje: 8.25, monto: 8.25 });
   });
+
+  it('calcula el impuesto de Utah', () => {
+    // Arrange
+    const subtotal = 100;
+    const estado = 'UT';
+
+    // Act
+    const impuesto = calcularImpuesto(subtotal, estado);
+
+    // Assert
+    expect(impuesto).toEqual({ porcentaje: 6.65, monto: 6.65 });
+  });
 });
