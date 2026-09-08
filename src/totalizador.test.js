@@ -1,4 +1,8 @@
-import calcularSubtotal, { validarCantidad, validarPrecio } from './totalizador.js';
+import calcularSubtotal, {
+  obtenerEstadoPorDefecto,
+  validarCantidad,
+  validarPrecio,
+} from './totalizador.js';
 
 describe('Subtotal de la compra', () => {
   it('calcula el subtotal con una unidad', () => {
@@ -70,5 +74,17 @@ describe('Validación de precio', () => {
 
     // Assert
     expect(mensaje).toBe('El precio debe ser un número válido.');
+  });
+});
+
+describe('Estado de la compra', () => {
+  it('selecciona California como estado inicial', () => {
+    // Arrange
+
+    // Act
+    const estadoInicial = obtenerEstadoPorDefecto();
+
+    // Assert
+    expect(estadoInicial).toBe('CA');
   });
 });

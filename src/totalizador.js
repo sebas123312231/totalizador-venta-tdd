@@ -22,5 +22,9 @@ function validarPrecio(precioUnitario) {
   return '';
 }
 
-export { validarCantidad, validarPrecio };
+function obtenerEstadoPorDefecto() {
+  return 'CA';
+}
+
+export { obtenerEstadoPorDefecto, validarCantidad, validarPrecio };
 export default calcularSubtotal;

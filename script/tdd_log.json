@@ -126,9 +126,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cbe2c33c37e1b4a14f7fdba74b9896cf948145e0",
     "commitName": "feat: validar precios no numéricos",
     "commitTimestamp": 1788895140975,
     "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788897868758,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788897889784,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: seleccionar California por defecto",
+    "commitTimestamp": 1788897915774,
+    "testId": 6
   }
 ]

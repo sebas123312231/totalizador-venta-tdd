@@ -1,9 +1,16 @@
-import calcularSubtotal, { validarCantidad, validarPrecio } from './totalizador';
+import calcularSubtotal, {
+  obtenerEstadoPorDefecto,
+  validarCantidad,
+  validarPrecio,
+} from './totalizador';
 
 const cantidad = document.querySelector('#cantidad');
 const precioUnitario = document.querySelector('#precio-unitario');
+const estado = document.querySelector('#estado');
 const form = document.querySelector('#venta-form');
 const div = document.querySelector('#resultado-div');
+
+estado.value = obtenerEstadoPorDefecto();
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
