@@ -16,9 +16,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c50b15cd721d2f7e764f4f76b63eb07669542cca",
     "commitName": "feat: mostrar subtotal de la compra",
     "commitTimestamp": 1788883066451,
     "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788883884808,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788883905131,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar error para cantidad cero",
+    "commitTimestamp": 1788883999291,
+    "testId": 1
   }
 ]

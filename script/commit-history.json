@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "c50b15cd721d2f7e764f4f76b63eb07669542cca",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-08T15:57:45.000Z",
       "message": "feat: mostrar subtotal de la compra",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/c50b15cd721d2f7e764f4f76b63eb07669542cca"
     },
     "stats": {
       "total": 87,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-08T16:13:18.000Z",
+      "message": "feat: mostrar error para cantidad cero",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 33,
+      "deletions": 6,
+      "date": "2026-09-08"
+    },
+    "coverage": 75,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
