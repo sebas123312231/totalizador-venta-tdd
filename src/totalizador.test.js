@@ -49,4 +49,15 @@ describe('Validación de precio', () => {
     // Assert
     expect(mensaje).toBe('El precio debe ser mayor que cero.');
   });
+
+  it('indica que un precio negativo es inválido', () => {
+    // Arrange
+    const precioUnitario = -1;
+
+    // Act
+    const mensaje = validarPrecio(precioUnitario);
+
+    // Assert
+    expect(mensaje).toBe('El precio debe ser mayor que cero.');
+  });
 });

@@ -11,7 +11,7 @@ function validarCantidad(cantidad) {
 }
 
 function validarPrecio(precioUnitario) {
-  if (precioUnitario === 0) {
+  if (precioUnitario <= 0) {
     return 'El precio debe ser mayor que cero.';
   }
 

@@ -82,9 +82,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "310e2f92d40b6d76b83e312509ac578314f31041",
     "commitName": "feat: mostrar error para precio cero",
     "commitTimestamp": 1788893212578,
     "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788894056486,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788894067138,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar precios negativos",
+    "commitTimestamp": 1788894089134,
+    "testId": 4
   }
 ]
