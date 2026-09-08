@@ -104,9 +104,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "28269a7cc7832beabfa42b564aabf86f3d965f2e",
     "commitName": "feat: validar precios negativos",
     "commitTimestamp": 1788894089134,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788895109047,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788895118696,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar precios no numéricos",
+    "commitTimestamp": 1788895140975,
+    "testId": 5
   }
 ]

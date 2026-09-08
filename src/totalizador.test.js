@@ -60,4 +60,15 @@ describe('Validación de precio', () => {
     // Assert
     expect(mensaje).toBe('El precio debe ser mayor que cero.');
   });
+
+  it('indica que un precio no numérico es inválido', () => {
+    // Arrange
+    const precioUnitario = Number.NaN;
+
+    // Act
+    const mensaje = validarPrecio(precioUnitario);
+
+    // Assert
+    expect(mensaje).toBe('El precio debe ser un número válido.');
+  });
 });

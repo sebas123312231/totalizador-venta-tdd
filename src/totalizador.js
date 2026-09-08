@@ -11,6 +11,10 @@ function validarCantidad(cantidad) {
 }
 
 function validarPrecio(precioUnitario) {
+  if (Number.isNaN(precioUnitario)) {
+    return 'El precio debe ser un número válido.';
+  }
+
   if (precioUnitario <= 0) {
     return 'El precio debe ser mayor que cero.';
   }
