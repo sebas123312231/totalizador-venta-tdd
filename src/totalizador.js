@@ -26,5 +26,19 @@ function obtenerEstadoPorDefecto() {
   return 'CA';
 }
 
-export { obtenerEstadoPorDefecto, validarCantidad, validarPrecio };
+function calcularImpuesto(subtotal, estado) {
+  if (estado === 'CA') {
+    const porcentaje = 8.25;
+    return { porcentaje, monto: subtotal * porcentaje / 100 };
+  }
+
+  return { porcentaje: 0, monto: 0 };
+}
+
+export {
+  calcularImpuesto,
+  obtenerEstadoPorDefecto,
+  validarCantidad,
+  validarPrecio,
+};
 export default calcularSubtotal;

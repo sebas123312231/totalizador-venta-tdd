@@ -1,4 +1,5 @@
 import calcularSubtotal, {
+  calcularImpuesto,
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,
@@ -86,5 +87,19 @@ describe('Estado de la compra', () => {
 
     // Assert
     expect(estadoInicial).toBe('CA');
+  });
+});
+
+describe('Impuesto por estado', () => {
+  it('calcula el impuesto de California', () => {
+    // Arrange
+    const subtotal = 100;
+    const estado = 'CA';
+
+    // Act
+    const impuesto = calcularImpuesto(subtotal, estado);
+
+    // Assert
+    expect(impuesto).toEqual({ porcentaje: 8.25, monto: 8.25 });
   });
 });

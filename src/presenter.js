@@ -1,4 +1,5 @@
 import calcularSubtotal, {
+  calcularImpuesto,
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,
@@ -32,6 +33,9 @@ form.addEventListener('submit', (event) => {
   }
 
   const subtotal = calcularSubtotal(cantidadIngresada, precioIngresado);
+  const impuesto = calcularImpuesto(subtotal, estado.value);
 
-  div.innerHTML = '<p>Subtotal: $' + subtotal + '</p>';
+  div.innerHTML =
+    '<p>Subtotal: $' + subtotal + '</p>' +
+    '<p>Impuesto (' + impuesto.porcentaje + '%): $' + impuesto.monto + '</p>';
 });

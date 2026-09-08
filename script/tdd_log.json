@@ -148,9 +148,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a744d4f5c383e08159372f2d6b59f3af91330adb",
     "commitName": "feat: seleccionar California por defecto",
     "commitTimestamp": 1788897915774,
     "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788900690147,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788900712018,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de California",
+    "commitTimestamp": 1788900736451,
+    "testId": 7
   }
 ]

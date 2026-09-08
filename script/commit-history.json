@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a744d4f5c383e08159372f2d6b59f3af91330adb",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-08T20:05:15.000Z",
       "message": "feat: seleccionar California por defecto",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/a744d4f5c383e08159372f2d6b59f3af91330adb"
     },
     "stats": {
       "total": 41,
@@ -129,6 +129,25 @@
     },
     "coverage": 80,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-08T20:52:15.000Z",
+      "message": "feat: aplicar impuesto de California",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 35,
+      "deletions": 2,
+      "date": "2026-09-08"
+    },
+    "coverage": 78.57,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
