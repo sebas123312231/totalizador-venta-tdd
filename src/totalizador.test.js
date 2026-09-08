@@ -126,4 +126,16 @@ describe('Impuesto por estado', () => {
     // Assert
     expect(impuesto).toEqual({ porcentaje: 8, monto: 8 });
   });
+
+  it('calcula el impuesto de Texas', () => {
+    // Arrange
+    const subtotal = 100;
+    const estado = 'TX';
+
+    // Act
+    const impuesto = calcularImpuesto(subtotal, estado);
+
+    // Assert
+    expect(impuesto).toEqual({ porcentaje: 6.25, monto: 6.25 });
+  });
 });

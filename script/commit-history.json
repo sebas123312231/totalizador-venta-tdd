@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "68a826b5a989fe8b6877ef812a58496bcbb51070",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-08T21:04:24.000Z",
       "message": "feat: aplicar impuesto de Nevada",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/68a826b5a989fe8b6877ef812a58496bcbb51070"
     },
     "stats": {
       "total": 17,
@@ -186,6 +186,25 @@
     },
     "coverage": 85,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-08T23:59:50.000Z",
+      "message": "feat: aplicar impuesto de Texas",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 17,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 86.96,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -42,6 +42,11 @@ function calcularImpuesto(subtotal, estado) {
     return { porcentaje, monto: subtotal * porcentaje / 100 };
   }
 
+  if (estado === 'TX') {
+    const porcentaje = 6.25;
+    return { porcentaje, monto: subtotal * porcentaje / 100 };
+  }
+
   return { porcentaje: 0, monto: 0 };
 }
 
