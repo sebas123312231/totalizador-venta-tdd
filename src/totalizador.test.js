@@ -114,4 +114,16 @@ describe('Impuesto por estado', () => {
     // Assert
     expect(impuesto).toEqual({ porcentaje: 6.65, monto: 6.65 });
   });
+
+  it('calcula el impuesto de Nevada', () => {
+    // Arrange
+    const subtotal = 100;
+    const estado = 'NV';
+
+    // Act
+    const impuesto = calcularImpuesto(subtotal, estado);
+
+    // Assert
+    expect(impuesto).toEqual({ porcentaje: 8, monto: 8 });
+  });
 });
