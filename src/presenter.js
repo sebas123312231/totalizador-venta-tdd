@@ -1,4 +1,4 @@
-import calcularSubtotal, { validarCantidad } from './totalizador';
+import calcularSubtotal, { validarCantidad, validarPrecio } from './totalizador';
 
 const cantidad = document.querySelector('#cantidad');
 const precioUnitario = document.querySelector('#precio-unitario');
@@ -16,7 +16,15 @@ form.addEventListener('submit', (event) => {
     return;
   }
 
-  const subtotal = calcularSubtotal(cantidadIngresada, Number.parseFloat(precioUnitario.value));
+  const precioIngresado = Number.parseFloat(precioUnitario.value);
+  const mensajePrecio = validarPrecio(precioIngresado);
+
+  if (mensajePrecio) {
+    div.innerHTML = '<p>' + mensajePrecio + '</p>';
+    return;
+  }
+
+  const subtotal = calcularSubtotal(cantidadIngresada, precioIngresado);
 
   div.innerHTML = '<p>Subtotal: $' + subtotal + '</p>';
 });

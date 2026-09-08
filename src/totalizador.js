@@ -10,5 +10,13 @@ function validarCantidad(cantidad) {
   return '';
 }
 
-export { validarCantidad };
+function validarPrecio(precioUnitario) {
+  if (precioUnitario === 0) {
+    return 'El precio debe ser mayor que cero.';
+  }
+
+  return '';
+}
+
+export { validarCantidad, validarPrecio };
 export default calcularSubtotal;

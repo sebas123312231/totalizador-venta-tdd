@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4e58add07e5726c819470ec7be7e47cc4776f7fb",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-08T16:42:18.000Z",
       "message": "feat: validar cantidades negativas",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/4e58add07e5726c819470ec7be7e47cc4776f7fb"
     },
     "stats": {
       "total": 13,
@@ -53,6 +53,25 @@
     },
     "coverage": 75,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-08T18:46:51.000Z",
+      "message": "feat: mostrar error para precio cero",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 33,
+      "deletions": 4,
+      "date": "2026-09-08"
+    },
+    "coverage": 71.43,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -1,4 +1,4 @@
-import calcularSubtotal, { validarCantidad } from './totalizador.js';
+import calcularSubtotal, { validarCantidad, validarPrecio } from './totalizador.js';
 
 describe('Subtotal de la compra', () => {
   it('calcula el subtotal con una unidad', () => {
@@ -35,5 +35,18 @@ describe('Validación de cantidad', () => {
 
     // Assert
     expect(mensaje).toBe('La cantidad debe ser mayor que cero.');
+  });
+});
+
+describe('Validación de precio', () => {
+  it('indica que el precio debe ser mayor que cero', () => {
+    // Arrange
+    const precioUnitario = 0;
+
+    // Act
+    const mensaje = validarPrecio(precioUnitario);
+
+    // Assert
+    expect(mensaje).toBe('El precio debe ser mayor que cero.');
   });
 });
