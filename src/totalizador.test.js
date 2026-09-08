@@ -25,4 +25,15 @@ describe('Validación de cantidad', () => {
     // Assert
     expect(mensaje).toBe('La cantidad debe ser mayor que cero.');
   });
+
+  it('indica que una cantidad negativa es inválida', () => {
+    // Arrange
+    const cantidad = -1;
+
+    // Act
+    const mensaje = validarCantidad(cantidad);
+
+    // Assert
+    expect(mensaje).toBe('La cantidad debe ser mayor que cero.');
+  });
 });

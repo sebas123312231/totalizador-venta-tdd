@@ -3,7 +3,7 @@ function calcularSubtotal(cantidad, precioUnitario) {
 }
 
 function validarCantidad(cantidad) {
-  if (cantidad === 0) {
+  if (cantidad <= 0) {
     return 'La cantidad debe ser mayor que cero.';
   }
 
