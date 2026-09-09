@@ -1,4 +1,5 @@
 import calcularSubtotal, {
+  calcularDescuento,
   calcularImpuesto,
   obtenerEstadoPorDefecto,
   validarCantidad,
@@ -149,5 +150,18 @@ describe('Impuesto por estado', () => {
 
     // Assert
     expect(impuesto).toEqual({ porcentaje: 4, monto: 4 });
+  });
+});
+
+describe('Descuento por subtotal', () => {
+  it('no aplica descuento cuando el subtotal es menor que 1000', () => {
+    // Arrange
+    const subtotal = 500;
+
+    // Act
+    const descuento = calcularDescuento(subtotal);
+
+    // Assert
+    expect(descuento).toEqual({ porcentaje: 0, monto: 0 });
   });
 });

@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "66961bf1efa3ae323095b218557c51c6778223aa",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T00:02:30.000Z",
       "message": "feat: aplicar impuesto de Alabama",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/66961bf1efa3ae323095b218557c51c6778223aa"
     },
     "stats": {
       "total": 17,
@@ -224,6 +224,25 @@
     },
     "coverage": 88.46,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T00:07:25.000Z",
+      "message": "feat: mostrar descuento sin beneficio",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 23,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 89.29,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }

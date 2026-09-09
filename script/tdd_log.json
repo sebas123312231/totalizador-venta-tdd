@@ -258,9 +258,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "66961bf1efa3ae323095b218557c51c6778223aa",
     "commitName": "feat: aplicar impuesto de Alabama",
     "commitTimestamp": 1788912151422,
     "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788912402984,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788912422759,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar descuento sin beneficio",
+    "commitTimestamp": 1788912446342,
+    "testId": 12
   }
 ]
