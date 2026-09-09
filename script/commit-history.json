@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "417ebbe7185aac5dd0c8b399865706044cbe401d",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T22:51:43.000Z",
       "message": "feat: calcular envio de ciento uno a doscientos",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/417ebbe7185aac5dd0c8b399865706044cbe401d"
     },
     "stats": {
       "total": 13,
@@ -794,6 +794,25 @@
     },
     "coverage": 92.86,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T22:52:42.000Z",
+      "message": "feat: calcular envio mayor a doscientos",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.07,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -886,9 +886,31 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "417ebbe7185aac5dd0c8b399865706044cbe401d",
     "commitName": "feat: calcular envio de ciento uno a doscientos",
     "commitTimestamp": 1788994304051,
     "testId": 41
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 1,
+    "numTotalTests": 40,
+    "timestamp": 1788994335846,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1788994347272,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular envio mayor a doscientos",
+    "commitTimestamp": 1788994363640,
+    "testId": 42
   }
 ]
