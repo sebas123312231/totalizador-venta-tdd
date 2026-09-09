@@ -748,9 +748,39 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a9c97c5d71b73b629461756db1f6a92d02d857ab",
     "commitName": "feat: calcular envio para peso hasta diez",
     "commitTimestamp": 1788991659215,
     "testId": 34
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1788991672789,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1788991713036,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1788991729155,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular envio de once a veinte",
+    "commitTimestamp": 1788991774445,
+    "testId": 35
   }
 ]

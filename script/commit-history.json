@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a9c97c5d71b73b629461756db1f6a92d02d857ab",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T22:07:38.000Z",
       "message": "feat: calcular envio para peso hasta diez",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/a9c97c5d71b73b629461756db1f6a92d02d857ab"
     },
     "stats": {
       "total": 24,
@@ -661,6 +661,25 @@
     },
     "coverage": 91.57,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T22:09:33.000Z",
+      "message": "feat: calcular envio de once a veinte",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.86,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }
