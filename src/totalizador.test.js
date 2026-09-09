@@ -1,5 +1,6 @@
 import calcularSubtotal, {
   calcularDescuento,
+  calcularDescuentoAdicional,
   calcularImpuesto,
   calcularImpuestoAdicional,
   calcularTotal,
@@ -205,6 +206,16 @@ describe('Impuesto adicional por categoría', () => {
     const impuesto = calcularImpuestoAdicional(subtotal, categoria);
 
     expect(impuesto).toEqual({ porcentaje: 2, monto: 2 });
+  });
+});
+
+describe('Descuento adicional por categoría', () => {
+  it('no aplica descuento adicional a Varios', () => {
+    const subtotal = 100;
+    const categoria = 'Varios';
+    const descuento = calcularDescuentoAdicional(subtotal, categoria);
+
+    expect(descuento).toEqual({ porcentaje: 0, monto: 0 });
   });
 });
 

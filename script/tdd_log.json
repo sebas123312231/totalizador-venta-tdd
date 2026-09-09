@@ -588,9 +588,31 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8b93a366f0975d040ad31df06638d6edf5d79413",
     "commitName": "feat: aplicar impuesto a vestimenta",
     "commitTimestamp": 1788923019219,
     "testId": 26
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1788923706969,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1788923721105,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar descuento adicional de categoria",
+    "commitTimestamp": 1788923745578,
+    "testId": 27
   }
 ]

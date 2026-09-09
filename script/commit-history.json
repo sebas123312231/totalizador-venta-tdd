@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8b93a366f0975d040ad31df06638d6edf5d79413",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T03:03:38.000Z",
       "message": "feat: aplicar impuesto a vestimenta",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/8b93a366f0975d040ad31df06638d6edf5d79413"
     },
     "stats": {
       "total": 13,
@@ -509,6 +509,25 @@
     },
     "coverage": 93.44,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T03:15:44.000Z",
+      "message": "feat: mostrar descuento adicional de categoria",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 24,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.31,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }
