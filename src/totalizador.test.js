@@ -486,6 +486,15 @@ describe('Total de la compra', () => {
 
     expect(resultado.total).toBe(118.25);
   });
+
+  it('resta el descuento adicional de categoria del total', () => {
+    const subtotal = 100;
+    const estado = 'CA';
+    const opciones = { descuentoCategoria: 2 };
+    const resultado = calcularTotal(subtotal, estado, opciones);
+
+    expect(resultado.total).toBe(106.25);
+  });
 });
 
 describe('Confirmación de compra', () => {

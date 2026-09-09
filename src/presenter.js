@@ -62,9 +62,12 @@ form.addEventListener('submit', (event) => {
   const costoEnvio = calcularCostoEnvio(pesoIngresado, cantidadIngresada);
   const descuentoEnvio = calcularDescuentoEnvio(costoEnvio.total, tipoCliente.value);
   const beneficioEspecial = calcularBeneficioEspecial(subtotal, categoria.value, tipoCliente.value);
-  const resultado = calcularTotal(subtotal, estado.value, { costoEnvio: costoEnvio.total });
   const impuestoCategoria = calcularImpuestoAdicional(subtotal, categoria.value);
   const descuentoCategoria = calcularDescuentoAdicional(subtotal, categoria.value);
+  const resultado = calcularTotal(subtotal, estado.value, {
+    costoEnvio: costoEnvio.total,
+    descuentoCategoria: descuentoCategoria.monto,
+  });
   resultadoActual = resultado;
   const descuento = resultado.descuento;
   const impuesto = resultado.impuesto;

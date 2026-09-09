@@ -1114,9 +1114,31 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fb07d0e10493430918130380d6df3b1d1c936140",
     "commitName": "feat: incluir envio en el total final",
     "commitTimestamp": 1788995137616,
     "testId": 51
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 1,
+    "numTotalTests": 50,
+    "timestamp": 1788995191438,
+    "success": false,
+    "testId": 52
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1788995209908,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir descuento de categoria en el total",
+    "commitTimestamp": 1788995229923,
+    "testId": 52
   }
 ]
