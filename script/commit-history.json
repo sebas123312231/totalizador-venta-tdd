@@ -912,12 +912,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "59ad70bbe719ad392a6ba6f40de5dd13e1a2e58d",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T23:00:56.000Z",
       "message": "feat: mostrar beneficio especial sin descuento",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/59ad70bbe719ad392a6ba6f40de5dd13e1a2e58d"
     },
     "stats": {
       "total": 20,
@@ -927,6 +927,25 @@
     },
     "coverage": 93.1,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T23:01:58.000Z",
+      "message": "feat: aplicar beneficio de cien para recurrente en alimentos",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.22,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -235,6 +235,15 @@ describe('Beneficio especial', () => {
 
     expect(beneficio).toEqual({ monto: 0 });
   });
+
+  it('aplica 100 de beneficio a Recurrente en Alimentos con precio neto mayor que 3000', () => {
+    const precioNeto = 3001;
+    const categoria = 'Alimentos';
+    const tipoCliente = 'Recurrente';
+    const beneficio = calcularBeneficioEspecial(precioNeto, categoria, tipoCliente);
+
+    expect(beneficio).toEqual({ monto: 100 });
+  });
 });
 
 describe('Impuesto por estado', () => {

@@ -1040,9 +1040,31 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "59ad70bbe719ad392a6ba6f40de5dd13e1a2e58d",
     "commitName": "feat: mostrar beneficio especial sin descuento",
     "commitTimestamp": 1788994857599,
     "testId": 48
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1788994889110,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1788994901468,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar beneficio de cien para recurrente en alimentos",
+    "commitTimestamp": 1788994919147,
+    "testId": 49
   }
 ]

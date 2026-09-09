@@ -98,6 +98,10 @@ function calcularDescuentoEnvio(costoEnvio, tipoCliente) {
 }
 
 function calcularBeneficioEspecial(precioNeto, categoria, tipoCliente) {
+  if (precioNeto > 3000 && categoria === 'Alimentos' && tipoCliente === 'Recurrente') {
+    return { monto: 100 };
+  }
+
   return { monto: 0 };
 }
 
