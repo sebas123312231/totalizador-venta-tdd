@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7cb80ff97ade0436bce56952c3c2110108b89a33",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T02:31:27.000Z",
       "message": "feat: mostrar impuesto adicional de categoria",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/7cb80ff97ade0436bce56952c3c2110108b89a33"
     },
     "stats": {
       "total": 24,
@@ -433,6 +433,25 @@
     },
     "coverage": 91.84,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T02:38:31.000Z",
+      "message": "feat: aplicar impuesto a bebidas alcoholicas",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.31,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }

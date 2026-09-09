@@ -500,9 +500,31 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7cb80ff97ade0436bce56952c3c2110108b89a33",
     "commitName": "feat: mostrar impuesto adicional de categoria",
     "commitTimestamp": 1788921088188,
     "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788921471646,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788921485141,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto a bebidas alcoholicas",
+    "commitTimestamp": 1788921511687,
+    "testId": 23
   }
 ]

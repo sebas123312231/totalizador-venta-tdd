@@ -174,6 +174,14 @@ describe('Impuesto adicional por categoría', () => {
 
     expect(impuesto).toEqual({ porcentaje: 0, monto: 0 });
   });
+
+  it('aplica 7 por ciento a Bebidas alcohólicas', () => {
+    const subtotal = 100;
+    const categoria = 'Bebidas alcohólicas';
+    const impuesto = calcularImpuestoAdicional(subtotal, categoria);
+
+    expect(impuesto).toEqual({ porcentaje: 7, monto: 7 });
+  });
 });
 
 describe('Descuento por subtotal', () => {

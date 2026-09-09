@@ -31,6 +31,11 @@ function obtenerCategoriaPorDefecto() {
 }
 
 function calcularImpuestoAdicional(subtotal, categoria) {
+  if (categoria === 'Bebidas alcohólicas') {
+    const porcentaje = 7;
+    return { porcentaje, monto: subtotal * porcentaje / 100 };
+  }
+
   if (categoria === 'Varios') {
     const porcentaje = 0;
     return { porcentaje, monto: subtotal * porcentaje / 100 };
