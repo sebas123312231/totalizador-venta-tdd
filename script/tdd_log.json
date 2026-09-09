@@ -778,9 +778,31 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7468e6460001c3ce1e4449b01cf8e5d5d77cde4e",
     "commitName": "feat: calcular envio de once a veinte",
     "commitTimestamp": 1788991774445,
     "testId": 35
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1788992347342,
+    "success": false,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1788992364118,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular envio de veintiuno a cuarenta",
+    "commitTimestamp": 1788992397597,
+    "testId": 36
   }
 ]

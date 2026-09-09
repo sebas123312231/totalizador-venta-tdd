@@ -45,6 +45,11 @@ function calcularCostoEnvio(peso, cantidad) {
     return { costoPorUnidad, total: cantidad * costoPorUnidad };
   }
 
+  if (peso >= 21 && peso <= 40) {
+    const costoPorUnidad = 5;
+    return { costoPorUnidad, total: cantidad * costoPorUnidad };
+  }
+
   return { costoPorUnidad: 0, total: 0 };
 }
 
