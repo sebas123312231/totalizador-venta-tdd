@@ -1,6 +1,7 @@
 import calcularSubtotal, {
   calcularDescuento,
   calcularDescuentoAdicional,
+  calcularDescuentoEnvio,
   calcularCostoEnvio,
   calcularImpuesto,
   calcularImpuestoAdicional,
@@ -187,6 +188,16 @@ describe('Tipo de cliente', () => {
     const tipoInicial = obtenerTipoClientePorDefecto();
 
     expect(tipoInicial).toBe('Normal');
+  });
+});
+
+describe('Descuento de envÃ­o por cliente', () => {
+  it('no aplica descuento de envÃ­o a un cliente Normal', () => {
+    const costoEnvio = 10;
+    const tipoCliente = 'Normal';
+    const descuento = calcularDescuentoEnvio(costoEnvio, tipoCliente);
+
+    expect(descuento).toEqual({ porcentaje: 0, monto: 0 });
   });
 });
 

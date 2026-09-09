@@ -1,6 +1,7 @@
 import calcularSubtotal, {
   calcularCostoEnvio,
   calcularDescuentoAdicional,
+  calcularDescuentoEnvio,
   calcularTotal,
   calcularImpuestoAdicional,
   cancelarCompra,
@@ -58,6 +59,7 @@ form.addEventListener('submit', (event) => {
 
   const subtotal = calcularSubtotal(cantidadIngresada, precioIngresado);
   const costoEnvio = calcularCostoEnvio(pesoIngresado, cantidadIngresada);
+  const descuentoEnvio = calcularDescuentoEnvio(costoEnvio.total, tipoCliente.value);
   const resultado = calcularTotal(subtotal, estado.value);
   const impuestoCategoria = calcularImpuestoAdicional(subtotal, categoria.value);
   const descuentoCategoria = calcularDescuentoAdicional(subtotal, categoria.value);
@@ -72,6 +74,7 @@ form.addEventListener('submit', (event) => {
     '<p>Subtotal: $' + subtotal + '</p>' +
     pesoMostrado +
     '<p>Costo de envío: $' + costoEnvio.total + '</p>' +
+    '<p>Descuento de envio (' + descuentoEnvio.porcentaje + '%): $' + descuentoEnvio.monto + '</p>' +
     '<p>Descuento (' + descuento.porcentaje + '%): $' + descuento.monto + '</p>' +
     '<p>Descuento adicional de categoría (' + descuentoCategoria.porcentaje + '%): $' + descuentoCategoria.monto + '</p>' +
     '<p>Impuesto (' + impuesto.porcentaje + '%): $' + impuesto.monto + '</p>' +

@@ -73,6 +73,15 @@ function calcularCostoEnvio(peso, cantidad) {
   return { costoPorUnidad: 0, total: 0 };
 }
 
+function calcularDescuentoEnvio(costoEnvio, tipoCliente) {
+  if (tipoCliente === 'Normal') {
+    const porcentaje = 0;
+    return { porcentaje, monto: costoEnvio * porcentaje / 100 };
+  }
+
+  return { porcentaje: 0, monto: 0 };
+}
+
 function obtenerEstadoPorDefecto() {
   return 'CA';
 }
@@ -209,6 +218,7 @@ export {
   calcularCostoEnvio,
   calcularDescuento,
   calcularDescuentoAdicional,
+  calcularDescuentoEnvio,
   calcularImpuesto,
   calcularImpuestoAdicional,
   calcularTotal,
