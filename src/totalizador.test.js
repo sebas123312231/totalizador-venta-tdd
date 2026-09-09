@@ -233,6 +233,14 @@ describe('Descuento adicional por categoría', () => {
 
     expect(descuento).toEqual({ porcentaje: 1.5, monto: 1.5 });
   });
+
+  it('aplica 1 por ciento a Electrónicos', () => {
+    const subtotal = 100;
+    const categoria = 'Electrónicos';
+    const descuento = calcularDescuentoAdicional(subtotal, categoria);
+
+    expect(descuento).toEqual({ porcentaje: 1, monto: 1 });
+  });
 });
 
 describe('Descuento por subtotal', () => {

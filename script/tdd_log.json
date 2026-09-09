@@ -654,9 +654,31 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "79faf37f5c92845327bd6b1208bdd648153c633d",
     "commitName": "feat: aplicar descuento a material de escritorio",
     "commitTimestamp": 1788925081397,
     "testId": 29
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1788925676123,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1788925684619,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento a electronicos",
+    "commitTimestamp": 1788925704950,
+    "testId": 30
   }
 ]

@@ -70,6 +70,11 @@ function calcularDescuentoAdicional(subtotal, categoria) {
     return { porcentaje, monto: subtotal * porcentaje / 100 };
   }
 
+  if (categoria === 'Electrónicos') {
+    const porcentaje = 1;
+    return { porcentaje, monto: subtotal * porcentaje / 100 };
+  }
+
   if (categoria === 'Varios') {
     const porcentaje = 0;
     return { porcentaje, monto: subtotal * porcentaje / 100 };

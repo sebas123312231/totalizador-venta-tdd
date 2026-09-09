@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "79faf37f5c92845327bd6b1208bdd648153c633d",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T03:38:00.000Z",
       "message": "feat: aplicar descuento a material de escritorio",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/79faf37f5c92845327bd6b1208bdd648153c633d"
     },
     "stats": {
       "total": 13,
@@ -566,6 +566,25 @@
     },
     "coverage": 92.96,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T03:48:24.000Z",
+      "message": "feat: aplicar descuento a electronicos",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.24,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }
