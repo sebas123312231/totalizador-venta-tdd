@@ -198,6 +198,14 @@ describe('Impuesto adicional por categoría', () => {
 
     expect(impuesto).toEqual({ porcentaje: 4, monto: 4 });
   });
+
+  it('aplica 2 por ciento a Vestimenta', () => {
+    const subtotal = 100;
+    const categoria = 'Vestimenta';
+    const impuesto = calcularImpuestoAdicional(subtotal, categoria);
+
+    expect(impuesto).toEqual({ porcentaje: 2, monto: 2 });
+  });
 });
 
 describe('Descuento por subtotal', () => {

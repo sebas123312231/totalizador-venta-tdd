@@ -566,9 +566,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8d26d74b4b9415c0da84d4c0b1ef2a920c59ba4d",
     "commitName": "feat: aplicar impuesto a electronicos",
     "commitTimestamp": 1788922765316,
     "testId": 25
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1788922979873,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1788922991628,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto a vestimenta",
+    "commitTimestamp": 1788923019219,
+    "testId": 26
   }
 ]

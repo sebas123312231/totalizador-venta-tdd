@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8d26d74b4b9415c0da84d4c0b1ef2a920c59ba4d",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T02:59:24.000Z",
       "message": "feat: aplicar impuesto a electronicos",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/8d26d74b4b9415c0da84d4c0b1ef2a920c59ba4d"
     },
     "stats": {
       "total": 13,
@@ -490,6 +490,25 @@
     },
     "coverage": 93.1,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T03:03:38.000Z",
+      "message": "feat: aplicar impuesto a vestimenta",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.44,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }
