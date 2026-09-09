@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2c97c2bf2a4339c1eb8a04f1d997bc4d78aeef90",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-08T23:59:50.000Z",
       "message": "feat: aplicar impuesto de Texas",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/2c97c2bf2a4339c1eb8a04f1d997bc4d78aeef90"
     },
     "stats": {
       "total": 17,
@@ -205,6 +205,25 @@
     },
     "coverage": 86.96,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T00:02:30.000Z",
+      "message": "feat: aplicar impuesto de Alabama",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 17,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 88.46,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

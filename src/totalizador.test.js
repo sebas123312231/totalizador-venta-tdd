@@ -138,4 +138,16 @@ describe('Impuesto por estado', () => {
     // Assert
     expect(impuesto).toEqual({ porcentaje: 6.25, monto: 6.25 });
   });
+
+  it('calcula el impuesto de Alabama', () => {
+    // Arrange
+    const subtotal = 100;
+    const estado = 'AL';
+
+    // Act
+    const impuesto = calcularImpuesto(subtotal, estado);
+
+    // Assert
+    expect(impuesto).toEqual({ porcentaje: 4, monto: 4 });
+  });
 });
