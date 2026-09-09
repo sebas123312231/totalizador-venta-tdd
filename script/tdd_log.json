@@ -412,9 +412,31 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7f93513c93a20551ae7de70d9fd6d29582a91e11",
     "commitName": "feat: calcular total con descuento antes de impuesto",
     "commitTimestamp": 1788914495694,
     "testId": 18
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788914590046,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788914605346,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: confirmar compra calculada",
+    "commitTimestamp": 1788914630088,
+    "testId": 19
   }
 ]

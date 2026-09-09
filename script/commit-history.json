@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7f93513c93a20551ae7de70d9fd6d29582a91e11",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T00:41:35.000Z",
       "message": "feat: calcular total con descuento antes de impuesto",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/7f93513c93a20551ae7de70d9fd6d29582a91e11"
     },
     "stats": {
       "total": 43,
@@ -357,6 +357,25 @@
     },
     "coverage": 92.86,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T00:43:49.000Z",
+      "message": "feat: confirmar compra calculada",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 26,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.02,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

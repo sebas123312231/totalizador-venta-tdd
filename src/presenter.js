@@ -1,5 +1,6 @@
 import calcularSubtotal, {
   calcularTotal,
+  confirmarCompra,
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,
@@ -9,7 +10,9 @@ const cantidad = document.querySelector('#cantidad');
 const precioUnitario = document.querySelector('#precio-unitario');
 const estado = document.querySelector('#estado');
 const form = document.querySelector('#venta-form');
+const confirmarButton = document.querySelector('#confirmar-button');
 const div = document.querySelector('#resultado-div');
+let resultadoActual;
 
 estado.value = obtenerEstadoPorDefecto();
 
@@ -34,6 +37,7 @@ form.addEventListener('submit', (event) => {
 
   const subtotal = calcularSubtotal(cantidadIngresada, precioIngresado);
   const resultado = calcularTotal(subtotal, estado.value);
+  resultadoActual = resultado;
   const descuento = resultado.descuento;
   const impuesto = resultado.impuesto;
 
@@ -42,4 +46,10 @@ form.addEventListener('submit', (event) => {
     '<p>Descuento (' + descuento.porcentaje + '%): $' + descuento.monto + '</p>' +
     '<p>Impuesto (' + impuesto.porcentaje + '%): $' + impuesto.monto + '</p>' +
     '<p>Total: $' + resultado.total + '</p>';
+});
+
+confirmarButton.addEventListener('click', () => {
+  if (resultadoActual) {
+    div.innerHTML = '<p>' + confirmarCompra(resultadoActual.total) + '</p>';
+  }
 });

@@ -85,10 +85,15 @@ function calcularTotal(subtotal, estado) {
   };
 }
 
+function confirmarCompra(total) {
+  return 'Compra confirmada. Total: $' + total;
+}
+
 export {
   calcularDescuento,
   calcularImpuesto,
   calcularTotal,
+  confirmarCompra,
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,

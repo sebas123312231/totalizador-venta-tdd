@@ -2,6 +2,7 @@ import calcularSubtotal, {
   calcularDescuento,
   calcularImpuesto,
   calcularTotal,
+  confirmarCompra,
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,
@@ -237,5 +238,14 @@ describe('Total de la compra', () => {
       impuesto: { porcentaje: 6.25, monto: 60.625 },
       total: 1030.625,
     });
+  });
+});
+
+describe('Confirmación de compra', () => {
+  it('confirma la compra mostrando su total', () => {
+    const total = 1030.625;
+    const mensaje = confirmarCompra(total);
+
+    expect(mensaje).toBe('Compra confirmada. Total: $1030.625');
   });
 });
