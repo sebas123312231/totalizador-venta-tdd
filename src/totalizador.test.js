@@ -9,6 +9,7 @@ import calcularSubtotal, {
   confirmarCompra,
   obtenerCategoriaPorDefecto,
   obtenerEstadoPorDefecto,
+  obtenerTipoClientePorDefecto,
   validarCantidad,
   validarPrecio,
   validarPesoVolumetrico,
@@ -178,6 +179,14 @@ describe('Categoría de la compra', () => {
     const categoriaInicial = obtenerCategoriaPorDefecto();
 
     expect(categoriaInicial).toBe('Varios');
+  });
+});
+
+describe('Tipo de cliente', () => {
+  it('selecciona Normal como tipo inicial', () => {
+    const tipoInicial = obtenerTipoClientePorDefecto();
+
+    expect(tipoInicial).toBe('Normal');
   });
 });
 

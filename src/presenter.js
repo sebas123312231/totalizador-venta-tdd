@@ -7,6 +7,7 @@ import calcularSubtotal, {
   confirmarCompra,
   obtenerCategoriaPorDefecto,
   obtenerEstadoPorDefecto,
+  obtenerTipoClientePorDefecto,
   validarCantidad,
   validarPesoVolumetrico,
   validarPrecio,
@@ -17,6 +18,7 @@ const precioUnitario = document.querySelector('#precio-unitario');
 const pesoVolumetrico = document.querySelector('#peso-volumetrico');
 const estado = document.querySelector('#estado');
 const categoria = document.querySelector('#categoria');
+const tipoCliente = document.querySelector('#tipo-cliente');
 const form = document.querySelector('#venta-form');
 const confirmarButton = document.querySelector('#confirmar-button');
 const cancelarButton = document.querySelector('#cancelar-button');
@@ -25,6 +27,7 @@ let resultadoActual;
 
 estado.value = obtenerEstadoPorDefecto();
 categoria.value = obtenerCategoriaPorDefecto();
+tipoCliente.value = obtenerTipoClientePorDefecto();
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -88,6 +91,7 @@ cancelarButton.addEventListener('click', () => {
   pesoVolumetrico.value = '';
   estado.value = obtenerEstadoPorDefecto();
   categoria.value = obtenerCategoriaPorDefecto();
+  tipoCliente.value = obtenerTipoClientePorDefecto();
   resultadoActual = undefined;
   div.innerHTML = '<p>' + cancelarCompra() + '</p>';
 });

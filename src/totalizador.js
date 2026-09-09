@@ -81,6 +81,10 @@ function obtenerCategoriaPorDefecto() {
   return 'Varios';
 }
 
+function obtenerTipoClientePorDefecto() {
+  return 'Normal';
+}
+
 function calcularImpuestoAdicional(subtotal, categoria) {
   if (categoria === 'Bebidas alcohólicas') {
     const porcentaje = 7;
@@ -212,6 +216,7 @@ export {
   confirmarCompra,
   obtenerCategoriaPorDefecto,
   obtenerEstadoPorDefecto,
+  obtenerTipoClientePorDefecto,
   validarCantidad,
   validarPesoVolumetrico,
   validarPrecio,

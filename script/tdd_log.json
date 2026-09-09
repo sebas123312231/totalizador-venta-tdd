@@ -908,9 +908,31 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8b94c4b1f8a4029badc52691d07e1163d6239ff6",
     "commitName": "feat: calcular envio mayor a doscientos",
     "commitTimestamp": 1788994363640,
     "testId": 42
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1788994409209,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1788994446309,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: seleccionar tipo de cliente",
+    "commitTimestamp": 1788994468979,
+    "testId": 43
   }
 ]
