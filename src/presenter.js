@@ -68,6 +68,7 @@ form.addEventListener('submit', (event) => {
     costoEnvio: costoEnvio.total,
     descuentoCategoria: descuentoCategoria.monto,
     impuestoCategoria: impuestoCategoria.monto,
+    descuentoEnvio: descuentoEnvio.monto,
   });
   resultadoActual = resultado;
   const descuento = resultado.descuento;

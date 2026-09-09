@@ -228,11 +228,12 @@ function calcularTotal(subtotal, estado, opciones = {}) {
   const costoEnvio = opciones.costoEnvio || 0;
   const descuentoCategoria = opciones.descuentoCategoria || 0;
   const impuestoCategoria = opciones.impuestoCategoria || 0;
+  const descuentoEnvio = opciones.descuentoEnvio || 0;
 
   return {
     descuento,
     impuesto,
-    total: subtotalConDescuento + impuesto.monto - descuentoCategoria + impuestoCategoria + costoEnvio,
+    total: subtotalConDescuento + impuesto.monto - descuentoCategoria + impuestoCategoria + costoEnvio - descuentoEnvio,
   };
 }
 

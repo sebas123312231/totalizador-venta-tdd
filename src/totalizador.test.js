@@ -504,6 +504,15 @@ describe('Total de la compra', () => {
 
     expect(resultado.total).toBe(111.25);
   });
+
+  it('resta el descuento de envio del total', () => {
+    const subtotal = 100;
+    const estado = 'CA';
+    const opciones = { costoEnvio: 100, descuentoEnvio: 0.5 };
+    const resultado = calcularTotal(subtotal, estado, opciones);
+
+    expect(resultado.total).toBe(207.75);
+  });
 });
 
 describe('Confirmación de compra', () => {
