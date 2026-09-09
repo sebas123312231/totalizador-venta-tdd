@@ -2,6 +2,7 @@ import calcularSubtotal, {
   calcularDescuento,
   calcularDescuentoAdicional,
   calcularDescuentoEnvio,
+  calcularBeneficioEspecial,
   calcularCostoEnvio,
   calcularImpuesto,
   calcularImpuestoAdicional,
@@ -222,6 +223,17 @@ describe('Descuento de envÃ­o por cliente', () => {
     const descuento = calcularDescuentoEnvio(costoEnvio, tipoCliente);
 
     expect(descuento).toEqual({ porcentaje: 1.5, monto: 1.5 });
+  });
+});
+
+describe('Beneficio especial', () => {
+  it('no aplica beneficio Recurrente en Alimentos con precio neto de 3000', () => {
+    const precioNeto = 3000;
+    const categoria = 'Alimentos';
+    const tipoCliente = 'Recurrente';
+    const beneficio = calcularBeneficioEspecial(precioNeto, categoria, tipoCliente);
+
+    expect(beneficio).toEqual({ monto: 0 });
   });
 });
 

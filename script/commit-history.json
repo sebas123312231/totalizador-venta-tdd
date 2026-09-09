@@ -893,12 +893,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a7bd1928373aeef7b3d1e5757eab5325d1318612",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T22:59:11.000Z",
       "message": "feat: calcular descuento de envio para cliente especial",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/a7bd1928373aeef7b3d1e5757eab5325d1318612"
     },
     "stats": {
       "total": 13,
@@ -908,6 +908,25 @@
     },
     "coverage": 93.04,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T23:00:56.000Z",
+      "message": "feat: mostrar beneficio especial sin descuento",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.1,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

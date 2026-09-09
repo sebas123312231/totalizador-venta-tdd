@@ -1018,9 +1018,31 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a7bd1928373aeef7b3d1e5757eab5325d1318612",
     "commitName": "feat: calcular descuento de envio para cliente especial",
     "commitTimestamp": 1788994752253,
     "testId": 47
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 1,
+    "numTotalTests": 46,
+    "timestamp": 1788994811493,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1788994837760,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar beneficio especial sin descuento",
+    "commitTimestamp": 1788994857599,
+    "testId": 48
   }
 ]

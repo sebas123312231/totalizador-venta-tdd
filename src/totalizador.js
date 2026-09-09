@@ -97,6 +97,10 @@ function calcularDescuentoEnvio(costoEnvio, tipoCliente) {
   return { porcentaje: 0, monto: 0 };
 }
 
+function calcularBeneficioEspecial(precioNeto, categoria, tipoCliente) {
+  return { monto: 0 };
+}
+
 function obtenerEstadoPorDefecto() {
   return 'CA';
 }
@@ -234,6 +238,7 @@ export {
   calcularDescuento,
   calcularDescuentoAdicional,
   calcularDescuentoEnvio,
+  calcularBeneficioEspecial,
   calcularImpuesto,
   calcularImpuestoAdicional,
   calcularTotal,
