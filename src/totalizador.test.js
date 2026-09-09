@@ -127,6 +127,14 @@ describe('Costo de envío', () => {
 
     expect(costo).toEqual({ costoPorUnidad: 5, total: 5 });
   });
+
+  it('cobra 6 por unidad para peso 41 con una unidad', () => {
+    const peso = 41;
+    const cantidad = 1;
+    const costo = calcularCostoEnvio(peso, cantidad);
+
+    expect(costo).toEqual({ costoPorUnidad: 6, total: 6 });
+  });
 });
 
 describe('Estado de la compra', () => {
