@@ -544,9 +544,31 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cfa1c2f9f8c2afadaf210efae1ba19fe29be2c9d",
     "commitName": "feat: aplicar impuesto a muebles",
     "commitTimestamp": 1788922542140,
     "testId": 24
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1788922731057,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1788922740870,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto a electronicos",
+    "commitTimestamp": 1788922765316,
+    "testId": 25
   }
 ]

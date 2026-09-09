@@ -190,6 +190,14 @@ describe('Impuesto adicional por categoría', () => {
 
     expect(impuesto).toEqual({ porcentaje: 3, monto: 3 });
   });
+
+  it('aplica 4 por ciento a Electrónicos', () => {
+    const subtotal = 100;
+    const categoria = 'Electrónicos';
+    const impuesto = calcularImpuestoAdicional(subtotal, categoria);
+
+    expect(impuesto).toEqual({ porcentaje: 4, monto: 4 });
+  });
 });
 
 describe('Descuento por subtotal', () => {

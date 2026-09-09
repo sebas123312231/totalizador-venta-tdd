@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cfa1c2f9f8c2afadaf210efae1ba19fe29be2c9d",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T02:55:41.000Z",
       "message": "feat: aplicar impuesto a muebles",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/cfa1c2f9f8c2afadaf210efae1ba19fe29be2c9d"
     },
     "stats": {
       "total": 13,
@@ -471,6 +471,25 @@
     },
     "coverage": 92.73,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T02:59:24.000Z",
+      "message": "feat: aplicar impuesto a electronicos",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.1,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }
