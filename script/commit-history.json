@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b49ee01bb06711bde0f72417f8af33420167b247",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T00:17:39.000Z",
       "message": "feat: aplicar descuento del siete por ciento",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/b49ee01bb06711bde0f72417f8af33420167b247"
     },
     "stats": {
       "total": 15,
@@ -300,6 +300,25 @@
     },
     "coverage": 91.18,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T00:26:03.000Z",
+      "message": "feat: aplicar descuento del diez por ciento",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.67,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

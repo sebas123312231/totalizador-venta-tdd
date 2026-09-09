@@ -58,7 +58,9 @@ function calcularImpuesto(subtotal, estado) {
 function calcularDescuento(subtotal) {
   let porcentaje = 0;
 
-  if (subtotal >= 7000) {
+  if (subtotal >= 10000) {
+    porcentaje = 10;
+  } else if (subtotal >= 7000) {
     porcentaje = 7;
   } else if (subtotal >= 3000) {
     porcentaje = 5;
