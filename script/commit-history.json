@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9498bae4e4586d343609d102d0c6d9a4a6003ba3",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T00:43:49.000Z",
       "message": "feat: confirmar compra calculada",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/9498bae4e4586d343609d102d0c6d9a4a6003ba3"
     },
     "stats": {
       "total": 26,
@@ -376,6 +376,25 @@
     },
     "coverage": 93.02,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T01:40:10.000Z",
+      "message": "feat: cancelar y limpiar compra",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 25,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.18,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -89,10 +89,15 @@ function confirmarCompra(total) {
   return 'Compra confirmada. Total: $' + total;
 }
 
+function cancelarCompra() {
+  return 'Compra cancelada.';
+}
+
 export {
   calcularDescuento,
   calcularImpuesto,
   calcularTotal,
+  cancelarCompra,
   confirmarCompra,
   obtenerEstadoPorDefecto,
   validarCantidad,

@@ -2,6 +2,7 @@ import calcularSubtotal, {
   calcularDescuento,
   calcularImpuesto,
   calcularTotal,
+  cancelarCompra,
   confirmarCompra,
   obtenerEstadoPorDefecto,
   validarCantidad,
@@ -247,5 +248,13 @@ describe('Confirmación de compra', () => {
     const mensaje = confirmarCompra(total);
 
     expect(mensaje).toBe('Compra confirmada. Total: $1030.625');
+  });
+});
+
+describe('Cancelación de compra', () => {
+  it('muestra el mensaje de cancelación', () => {
+    const mensaje = cancelarCompra();
+
+    expect(mensaje).toBe('Compra cancelada.');
   });
 });
