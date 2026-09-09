@@ -217,6 +217,14 @@ describe('Descuento adicional por categoría', () => {
 
     expect(descuento).toEqual({ porcentaje: 0, monto: 0 });
   });
+
+  it('aplica 2 por ciento a Alimentos', () => {
+    const subtotal = 100;
+    const categoria = 'Alimentos';
+    const descuento = calcularDescuentoAdicional(subtotal, categoria);
+
+    expect(descuento).toEqual({ porcentaje: 2, monto: 2 });
+  });
 });
 
 describe('Descuento por subtotal', () => {

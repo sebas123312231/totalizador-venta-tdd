@@ -60,6 +60,11 @@ function calcularImpuestoAdicional(subtotal, categoria) {
 }
 
 function calcularDescuentoAdicional(subtotal, categoria) {
+  if (categoria === 'Alimentos') {
+    const porcentaje = 2;
+    return { porcentaje, monto: subtotal * porcentaje / 100 };
+  }
+
   if (categoria === 'Varios') {
     const porcentaje = 0;
     return { porcentaje, monto: subtotal * porcentaje / 100 };
