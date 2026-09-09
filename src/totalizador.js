@@ -102,6 +102,10 @@ function calcularBeneficioEspecial(precioNeto, categoria, tipoCliente) {
     return { monto: 100 };
   }
 
+  if (precioNeto > 7000 && categoria === 'Electrónicos' && tipoCliente === 'Especial') {
+    return { monto: 200 };
+  }
+
   return { monto: 0 };
 }
 

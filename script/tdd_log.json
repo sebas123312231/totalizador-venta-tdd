@@ -1062,9 +1062,39 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e3bd7a78e94a21e58eaf4d5acd4a1f57a5eb23b8",
     "commitName": "feat: aplicar beneficio de cien para recurrente en alimentos",
     "commitTimestamp": 1788994919147,
     "testId": 49
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1788994956775,
+    "success": false,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1788994971745,
+    "success": false,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1788994984446,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar beneficio de doscientos para especial en electronicos",
+    "commitTimestamp": 1788995006048,
+    "testId": 50
   }
 ]

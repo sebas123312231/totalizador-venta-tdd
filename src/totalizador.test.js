@@ -244,6 +244,15 @@ describe('Beneficio especial', () => {
 
     expect(beneficio).toEqual({ monto: 100 });
   });
+
+  it('aplica 200 de beneficio a Especial en Electrónicos con precio neto mayor que 7000', () => {
+    const precioNeto = 7001;
+    const categoria = 'Electrónicos';
+    const tipoCliente = 'Especial';
+    const beneficio = calcularBeneficioEspecial(precioNeto, categoria, tipoCliente);
+
+    expect(beneficio).toEqual({ monto: 200 });
+  });
 });
 
 describe('Impuesto por estado', () => {
