@@ -89,6 +89,11 @@ function calcularDescuentoEnvio(costoEnvio, tipoCliente) {
     return { porcentaje, monto: costoEnvio * porcentaje / 100 };
   }
 
+  if (tipoCliente === 'Especial') {
+    const porcentaje = 1.5;
+    return { porcentaje, monto: costoEnvio * porcentaje / 100 };
+  }
+
   return { porcentaje: 0, monto: 0 };
 }
 
