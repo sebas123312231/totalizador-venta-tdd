@@ -23,6 +23,10 @@ function validarPrecio(precioUnitario) {
 }
 
 function validarPesoVolumetrico(peso) {
+  if (Number.isNaN(peso)) {
+    return 'El peso volumétrico debe ser un número válido.';
+  }
+
   if (peso < 0) {
     return 'El peso volumétrico debe ser mayor o igual que cero.';
   }

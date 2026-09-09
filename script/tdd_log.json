@@ -698,9 +698,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7e01711af818f4e8f4ba3ede7604886e276c99e0",
     "commitName": "feat: validar peso volumetrico negativo",
     "commitTimestamp": 1788926320542,
     "testId": 31
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1788926682645,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1788926692505,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar peso volumetrico no numerico",
+    "commitTimestamp": 1788926713881,
+    "testId": 32
   }
 ]

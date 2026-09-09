@@ -93,6 +93,13 @@ describe('Validación de peso volumétrico', () => {
 
     expect(mensaje).toBe('El peso volumétrico debe ser mayor o igual que cero.');
   });
+
+  it('indica que el peso debe ser numérico', () => {
+    const peso = Number.NaN;
+    const mensaje = validarPesoVolumetrico(peso);
+
+    expect(mensaje).toBe('El peso volumétrico debe ser un número válido.');
+  });
 });
 
 describe('Estado de la compra', () => {

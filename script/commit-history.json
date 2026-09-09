@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7e01711af818f4e8f4ba3ede7604886e276c99e0",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T03:58:39.000Z",
       "message": "feat: validar peso volumetrico negativo",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/7e01711af818f4e8f4ba3ede7604886e276c99e0"
     },
     "stats": {
       "total": 36,
@@ -604,6 +604,25 @@
     },
     "coverage": 92.21,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T04:05:13.000Z",
+      "message": "feat: validar peso volumetrico no numerico",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.41,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }
