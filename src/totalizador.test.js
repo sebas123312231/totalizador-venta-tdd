@@ -1,6 +1,7 @@
 import calcularSubtotal, {
   calcularDescuento,
   calcularImpuesto,
+  calcularTotal,
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,
@@ -218,5 +219,23 @@ describe('Descuento por subtotal', () => {
 
     // Assert
     expect(descuento).toEqual({ porcentaje: 15, monto: 4500 });
+  });
+});
+
+describe('Total de la compra', () => {
+  it('aplica el descuento antes del impuesto', () => {
+    // Arrange
+    const subtotal = 1000;
+    const estado = 'TX';
+
+    // Act
+    const resultado = calcularTotal(subtotal, estado);
+
+    // Assert
+    expect(resultado).toEqual({
+      descuento: { porcentaje: 3, monto: 30 },
+      impuesto: { porcentaje: 6.25, monto: 60.625 },
+      total: 1030.625,
+    });
   });
 });

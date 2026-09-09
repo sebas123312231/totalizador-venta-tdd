@@ -73,9 +73,22 @@ function calcularDescuento(subtotal) {
   return { porcentaje, monto: subtotal * porcentaje / 100 };
 }
 
+function calcularTotal(subtotal, estado) {
+  const descuento = calcularDescuento(subtotal);
+  const subtotalConDescuento = subtotal - descuento.monto;
+  const impuesto = calcularImpuesto(subtotalConDescuento, estado);
+
+  return {
+    descuento,
+    impuesto,
+    total: subtotalConDescuento + impuesto.monto,
+  };
+}
+
 export {
   calcularDescuento,
   calcularImpuesto,
+  calcularTotal,
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,

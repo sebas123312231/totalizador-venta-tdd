@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "296846a954da49ce61606aec77eb801b596e6857",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T00:31:37.000Z",
       "message": "feat: aplicar descuento del quince por ciento",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/296846a954da49ce61606aec77eb801b596e6857"
     },
     "stats": {
       "total": 15,
@@ -338,6 +338,25 @@
     },
     "coverage": 92.11,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T00:41:35.000Z",
+      "message": "feat: calcular total con descuento antes de impuesto",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 43,
+      "additions": 38,
+      "deletions": 5,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.86,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

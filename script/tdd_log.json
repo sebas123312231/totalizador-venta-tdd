@@ -390,9 +390,31 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "296846a954da49ce61606aec77eb801b596e6857",
     "commitName": "feat: aplicar descuento del quince por ciento",
     "commitTimestamp": 1788913898595,
     "testId": 17
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788914453888,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788914472362,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular total con descuento antes de impuesto",
+    "commitTimestamp": 1788914495694,
+    "testId": 18
   }
 ]
