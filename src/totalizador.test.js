@@ -225,6 +225,14 @@ describe('Descuento adicional por categoría', () => {
 
     expect(descuento).toEqual({ porcentaje: 2, monto: 2 });
   });
+
+  it('aplica 1.5 por ciento a Material de escritorio', () => {
+    const subtotal = 100;
+    const categoria = 'Material de escritorio';
+    const descuento = calcularDescuentoAdicional(subtotal, categoria);
+
+    expect(descuento).toEqual({ porcentaje: 1.5, monto: 1.5 });
+  });
 });
 
 describe('Descuento por subtotal', () => {

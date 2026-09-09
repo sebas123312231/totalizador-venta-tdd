@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2ed2088fe2110abd9b5515c29dfbbb6ec4b7b4f5",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T03:29:14.000Z",
       "message": "feat: aplicar descuento a alimentos",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/2ed2088fe2110abd9b5515c29dfbbb6ec4b7b4f5"
     },
     "stats": {
       "total": 13,
@@ -547,6 +547,25 @@
     },
     "coverage": 92.65,
     "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T03:38:00.000Z",
+      "message": "feat: aplicar descuento a material de escritorio",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.96,
+    "test_count": 30,
     "failed_tests": 0,
     "conclusion": "success"
   }

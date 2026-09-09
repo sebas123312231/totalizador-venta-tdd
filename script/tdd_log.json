@@ -632,9 +632,31 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2ed2088fe2110abd9b5515c29dfbbb6ec4b7b4f5",
     "commitName": "feat: aplicar descuento a alimentos",
     "commitTimestamp": 1788924555739,
     "testId": 28
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1788925042992,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1788925056242,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento a material de escritorio",
+    "commitTimestamp": 1788925081397,
+    "testId": 29
   }
 ]

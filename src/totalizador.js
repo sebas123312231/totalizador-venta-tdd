@@ -65,6 +65,11 @@ function calcularDescuentoAdicional(subtotal, categoria) {
     return { porcentaje, monto: subtotal * porcentaje / 100 };
   }
 
+  if (categoria === 'Material de escritorio') {
+    const porcentaje = 1.5;
+    return { porcentaje, monto: subtotal * porcentaje / 100 };
+  }
+
   if (categoria === 'Varios') {
     const porcentaje = 0;
     return { porcentaje, monto: subtotal * porcentaje / 100 };
