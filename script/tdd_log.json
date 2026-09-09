@@ -456,9 +456,31 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4c3cf8b72b91b333ab75d34aead2532ef08beb89",
     "commitName": "feat: cancelar y limpiar compra",
     "commitTimestamp": 1788918011044,
     "testId": 20
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1788920075354,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788920154312,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: seleccionar categoria por defecto",
+    "commitTimestamp": 1788920214774,
+    "testId": 21
   }
 ]

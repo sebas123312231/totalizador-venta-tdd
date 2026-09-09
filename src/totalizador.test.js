@@ -4,6 +4,7 @@ import calcularSubtotal, {
   calcularTotal,
   cancelarCompra,
   confirmarCompra,
+  obtenerCategoriaPorDefecto,
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,
@@ -91,6 +92,14 @@ describe('Estado de la compra', () => {
 
     // Assert
     expect(estadoInicial).toBe('CA');
+  });
+});
+
+describe('Categoría de la compra', () => {
+  it('selecciona Varios como categoría inicial', () => {
+    const categoriaInicial = obtenerCategoriaPorDefecto();
+
+    expect(categoriaInicial).toBe('Varios');
   });
 });
 

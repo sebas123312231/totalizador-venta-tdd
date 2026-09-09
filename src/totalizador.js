@@ -26,6 +26,10 @@ function obtenerEstadoPorDefecto() {
   return 'CA';
 }
 
+function obtenerCategoriaPorDefecto() {
+  return 'Varios';
+}
+
 function calcularImpuesto(subtotal, estado) {
   if (estado === 'CA') {
     const porcentaje = 8.25;
@@ -99,6 +103,7 @@ export {
   calcularTotal,
   cancelarCompra,
   confirmarCompra,
+  obtenerCategoriaPorDefecto,
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,
