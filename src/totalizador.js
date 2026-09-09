@@ -34,6 +34,15 @@ function validarPesoVolumetrico(peso) {
   return '';
 }
 
+function calcularCostoEnvio(peso, cantidad) {
+  if (peso >= 0 && peso <= 10) {
+    const costoPorUnidad = 0;
+    return { costoPorUnidad, total: cantidad * costoPorUnidad };
+  }
+
+  return { costoPorUnidad: 0, total: 0 };
+}
+
 function obtenerEstadoPorDefecto() {
   return 'CA';
 }
@@ -163,6 +172,7 @@ function cancelarCompra() {
 }
 
 export {
+  calcularCostoEnvio,
   calcularDescuento,
   calcularDescuentoAdicional,
   calcularImpuesto,

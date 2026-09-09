@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2c6e1da84556a8a65d606eab9d4cf436af9f1269",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T04:05:13.000Z",
       "message": "feat: validar peso volumetrico no numerico",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/2c6e1da84556a8a65d606eab9d4cf436af9f1269"
     },
     "stats": {
       "total": 11,
@@ -623,6 +623,44 @@
     },
     "coverage": 92.41,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2c6e1da84556a8a65d606eab9d4cf436af9f1269",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T22:02:40.000Z",
+      "message": "feat: calcular envio para peso hasta diez",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/2c6e1da84556a8a65d606eab9d4cf436af9f1269"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 29,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.57,
+    "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T22:07:38.000Z",
+      "message": "feat: calcular envio para peso hasta diez",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 24,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.57,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

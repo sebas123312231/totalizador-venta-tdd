@@ -1,6 +1,7 @@
 import calcularSubtotal, {
   calcularDescuento,
   calcularDescuentoAdicional,
+  calcularCostoEnvio,
   calcularImpuesto,
   calcularImpuestoAdicional,
   calcularTotal,
@@ -99,6 +100,16 @@ describe('Validación de peso volumétrico', () => {
     const mensaje = validarPesoVolumetrico(peso);
 
     expect(mensaje).toBe('El peso volumétrico debe ser un número válido.');
+  });
+});
+
+describe('Costo de envío', () => {
+  it('no cobra envío para peso cero con una unidad', () => {
+    const peso = 0;
+    const cantidad = 1;
+    const costo = calcularCostoEnvio(peso, cantidad);
+
+    expect(costo).toEqual({ costoPorUnidad: 0, total: 0 });
   });
 });
 

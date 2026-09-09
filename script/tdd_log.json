@@ -720,9 +720,37 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2c6e1da84556a8a65d606eab9d4cf436af9f1269",
     "commitName": "feat: validar peso volumetrico no numerico",
     "commitTimestamp": 1788926713881,
     "testId": 32
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1788991271570,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1788991308831,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "2c6e1da84556a8a65d606eab9d4cf436af9f1269",
+    "commitName": "feat: calcular envio para peso hasta diez",
+    "commitTimestamp": 1788991361512,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular envio para peso hasta diez",
+    "commitTimestamp": 1788991659215,
+    "testId": 34
   }
 ]
