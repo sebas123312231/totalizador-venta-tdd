@@ -676,9 +676,31 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8140bf4f2d486ceed4225001dd1d65a5f38ee77b",
     "commitName": "feat: aplicar descuento a electronicos",
     "commitTimestamp": 1788925704950,
     "testId": 30
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1788926278675,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1788926297375,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar peso volumetrico negativo",
+    "commitTimestamp": 1788926320542,
+    "testId": 31
   }
 ]

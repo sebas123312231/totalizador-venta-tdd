@@ -22,6 +22,14 @@ function validarPrecio(precioUnitario) {
   return '';
 }
 
+function validarPesoVolumetrico(peso) {
+  if (peso < 0) {
+    return 'El peso volumétrico debe ser mayor o igual que cero.';
+  }
+
+  return '';
+}
+
 function obtenerEstadoPorDefecto() {
   return 'CA';
 }
@@ -161,6 +169,7 @@ export {
   obtenerCategoriaPorDefecto,
   obtenerEstadoPorDefecto,
   validarCantidad,
+  validarPesoVolumetrico,
   validarPrecio,
 };
 export default calcularSubtotal;

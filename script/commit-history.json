@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8140bf4f2d486ceed4225001dd1d65a5f38ee77b",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T03:48:24.000Z",
       "message": "feat: aplicar descuento a electronicos",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/8140bf4f2d486ceed4225001dd1d65a5f38ee77b"
     },
     "stats": {
       "total": 13,
@@ -585,6 +585,25 @@
     },
     "coverage": 93.24,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T03:58:39.000Z",
+      "message": "feat: validar peso volumetrico negativo",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 36,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.21,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }

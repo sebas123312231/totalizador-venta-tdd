@@ -7,11 +7,13 @@ import calcularSubtotal, {
   obtenerCategoriaPorDefecto,
   obtenerEstadoPorDefecto,
   validarCantidad,
+  validarPesoVolumetrico,
   validarPrecio,
 } from './totalizador';
 
 const cantidad = document.querySelector('#cantidad');
 const precioUnitario = document.querySelector('#precio-unitario');
+const pesoVolumetrico = document.querySelector('#peso-volumetrico');
 const estado = document.querySelector('#estado');
 const categoria = document.querySelector('#categoria');
 const form = document.querySelector('#venta-form');
@@ -42,6 +44,14 @@ form.addEventListener('submit', (event) => {
     return;
   }
 
+  const pesoIngresado = Number.parseFloat(pesoVolumetrico.value);
+  const mensajePeso = validarPesoVolumetrico(pesoIngresado);
+
+  if (mensajePeso) {
+    div.innerHTML = '<p>' + mensajePeso + '</p>';
+    return;
+  }
+
   const subtotal = calcularSubtotal(cantidadIngresada, precioIngresado);
   const resultado = calcularTotal(subtotal, estado.value);
   const impuestoCategoria = calcularImpuestoAdicional(subtotal, categoria.value);
@@ -49,9 +59,13 @@ form.addEventListener('submit', (event) => {
   resultadoActual = resultado;
   const descuento = resultado.descuento;
   const impuesto = resultado.impuesto;
+  const pesoMostrado = pesoVolumetrico.value
+    ? '<p>Peso volumétrico por unidad: ' + pesoVolumetrico.value + '</p>'
+    : '';
 
   div.innerHTML =
     '<p>Subtotal: $' + subtotal + '</p>' +
+    pesoMostrado +
     '<p>Descuento (' + descuento.porcentaje + '%): $' + descuento.monto + '</p>' +
     '<p>Descuento adicional de categoría (' + descuentoCategoria.porcentaje + '%): $' + descuentoCategoria.monto + '</p>' +
     '<p>Impuesto (' + impuesto.porcentaje + '%): $' + impuesto.monto + '</p>' +
@@ -68,6 +82,7 @@ confirmarButton.addEventListener('click', () => {
 cancelarButton.addEventListener('click', () => {
   cantidad.value = '';
   precioUnitario.value = '';
+  pesoVolumetrico.value = '';
   estado.value = obtenerEstadoPorDefecto();
   categoria.value = obtenerCategoriaPorDefecto();
   resultadoActual = undefined;

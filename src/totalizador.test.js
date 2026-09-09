@@ -10,6 +10,7 @@ import calcularSubtotal, {
   obtenerEstadoPorDefecto,
   validarCantidad,
   validarPrecio,
+  validarPesoVolumetrico,
 } from './totalizador.js';
 
 describe('Subtotal de la compra', () => {
@@ -82,6 +83,15 @@ describe('Validación de precio', () => {
 
     // Assert
     expect(mensaje).toBe('El precio debe ser un número válido.');
+  });
+});
+
+describe('Validación de peso volumétrico', () => {
+  it('indica que el peso no puede ser negativo', () => {
+    const peso = -1;
+    const mensaje = validarPesoVolumetrico(peso);
+
+    expect(mensaje).toBe('El peso volumétrico debe ser mayor o igual que cero.');
   });
 });
 
