@@ -1092,9 +1092,31 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e16badd267047f9ab7cc8e318325a2efa1b6fdc1",
     "commitName": "feat: aplicar beneficio de doscientos para especial en electronicos",
     "commitTimestamp": 1788995006048,
     "testId": 50
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 1,
+    "numTotalTests": 49,
+    "timestamp": 1788995095647,
+    "success": false,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1788995120630,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir envio en el total final",
+    "commitTimestamp": 1788995137616,
+    "testId": 51
   }
 ]

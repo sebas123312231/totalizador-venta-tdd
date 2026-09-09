@@ -477,6 +477,15 @@ describe('Total de la compra', () => {
       total: 1030.625,
     });
   });
+
+  it('incluye el costo de envio en el total', () => {
+    const subtotal = 100;
+    const estado = 'CA';
+    const opciones = { costoEnvio: 10 };
+    const resultado = calcularTotal(subtotal, estado, opciones);
+
+    expect(resultado.total).toBe(118.25);
+  });
 });
 
 describe('Confirmación de compra', () => {

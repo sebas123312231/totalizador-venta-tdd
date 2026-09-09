@@ -950,12 +950,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e16badd267047f9ab7cc8e318325a2efa1b6fdc1",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T23:03:25.000Z",
       "message": "feat: aplicar beneficio de doscientos para especial en electronicos",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/e16badd267047f9ab7cc8e318325a2efa1b6fdc1"
     },
     "stats": {
       "total": 13,
@@ -965,6 +965,25 @@
     },
     "coverage": 93.33,
     "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T23:05:36.000Z",
+      "message": "feat: incluir envio en el total final",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 13,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.39,
+    "test_count": 49,
     "failed_tests": 0,
     "conclusion": "success"
   }
