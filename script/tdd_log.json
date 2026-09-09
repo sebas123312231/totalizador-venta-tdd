@@ -952,9 +952,31 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "34cb8f2e864f3220126b62e3981f98a33abe91f1",
     "commitName": "feat: calcular descuento de envio para cliente normal",
     "commitTimestamp": 1788994575574,
     "testId": 44
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1788994601545,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1788994613211,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento de envio para cliente recurrente",
+    "commitTimestamp": 1788994629627,
+    "testId": 45
   }
 ]

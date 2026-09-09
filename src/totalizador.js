@@ -79,6 +79,11 @@ function calcularDescuentoEnvio(costoEnvio, tipoCliente) {
     return { porcentaje, monto: costoEnvio * porcentaje / 100 };
   }
 
+  if (tipoCliente === 'Recurrente') {
+    const porcentaje = 0.5;
+    return { porcentaje, monto: costoEnvio * porcentaje / 100 };
+  }
+
   return { porcentaje: 0, monto: 0 };
 }
 

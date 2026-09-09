@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "34cb8f2e864f3220126b62e3981f98a33abe91f1",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T22:56:14.000Z",
       "message": "feat: calcular descuento de envio para cliente normal",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/34cb8f2e864f3220126b62e3981f98a33abe91f1"
     },
     "stats": {
       "total": 24,
@@ -851,6 +851,25 @@
     },
     "coverage": 92.45,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T22:57:08.000Z",
+      "message": "feat: calcular descuento de envio para cliente recurrente",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.66,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }

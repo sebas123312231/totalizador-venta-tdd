@@ -199,6 +199,14 @@ describe('Descuento de envÃ­o por cliente', () => {
 
     expect(descuento).toEqual({ porcentaje: 0, monto: 0 });
   });
+
+  it('aplica 0.5 por ciento a un cliente Recurrente', () => {
+    const costoEnvio = 100;
+    const tipoCliente = 'Recurrente';
+    const descuento = calcularDescuentoEnvio(costoEnvio, tipoCliente);
+
+    expect(descuento).toEqual({ porcentaje: 0.5, monto: 0.5 });
+  });
 });
 
 describe('Impuesto por estado', () => {
