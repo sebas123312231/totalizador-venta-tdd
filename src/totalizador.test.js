@@ -186,4 +186,15 @@ describe('Descuento por subtotal', () => {
     // Assert
     expect(descuento).toEqual({ porcentaje: 5, monto: 150 });
   });
+
+  it('aplica 7 por ciento cuando el subtotal es 7000', () => {
+    // Arrange
+    const subtotal = 7000;
+
+    // Act
+    const descuento = calcularDescuento(subtotal);
+
+    // Assert
+    expect(descuento).toEqual({ porcentaje: 7, monto: 490 });
+  });
 });
