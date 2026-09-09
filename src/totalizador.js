@@ -56,7 +56,12 @@ function calcularImpuesto(subtotal, estado) {
 }
 
 function calcularDescuento(subtotal) {
-  const porcentaje = 0;
+  let porcentaje = 0;
+
+  if (subtotal >= 1000) {
+    porcentaje = 3;
+  }
+
   return { porcentaje, monto: subtotal * porcentaje / 100 };
 }
 

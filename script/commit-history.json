@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "509f15e43b9c589f94b09f263bf51799c0533cbd",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T00:07:25.000Z",
       "message": "feat: mostrar descuento sin beneficio",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/509f15e43b9c589f94b09f263bf51799c0533cbd"
     },
     "stats": {
       "total": 23,
@@ -243,6 +243,25 @@
     },
     "coverage": 89.29,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T00:12:23.000Z",
+      "message": "feat: aplicar descuento del tres por ciento",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 90,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
