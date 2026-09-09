@@ -182,6 +182,14 @@ describe('Impuesto adicional por categoría', () => {
 
     expect(impuesto).toEqual({ porcentaje: 7, monto: 7 });
   });
+
+  it('aplica 3 por ciento a Muebles', () => {
+    const subtotal = 100;
+    const categoria = 'Muebles';
+    const impuesto = calcularImpuestoAdicional(subtotal, categoria);
+
+    expect(impuesto).toEqual({ porcentaje: 3, monto: 3 });
+  });
 });
 
 describe('Descuento por subtotal', () => {

@@ -36,6 +36,11 @@ function calcularImpuestoAdicional(subtotal, categoria) {
     return { porcentaje, monto: subtotal * porcentaje / 100 };
   }
 
+  if (categoria === 'Muebles') {
+    const porcentaje = 3;
+    return { porcentaje, monto: subtotal * porcentaje / 100 };
+  }
+
   if (categoria === 'Varios') {
     const porcentaje = 0;
     return { porcentaje, monto: subtotal * porcentaje / 100 };

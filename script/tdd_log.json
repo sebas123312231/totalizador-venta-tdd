@@ -522,9 +522,31 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ab4940d576e3348f339b2b2cacb7912106999eb7",
     "commitName": "feat: aplicar impuesto a bebidas alcoholicas",
     "commitTimestamp": 1788921511687,
     "testId": 23
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1788922506854,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1788922518975,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto a muebles",
+    "commitTimestamp": 1788922542140,
+    "testId": 24
   }
 ]
