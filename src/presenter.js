@@ -1,5 +1,6 @@
 import calcularSubtotal, {
   calcularTotal,
+  calcularImpuestoAdicional,
   cancelarCompra,
   confirmarCompra,
   obtenerCategoriaPorDefecto,
@@ -42,6 +43,7 @@ form.addEventListener('submit', (event) => {
 
   const subtotal = calcularSubtotal(cantidadIngresada, precioIngresado);
   const resultado = calcularTotal(subtotal, estado.value);
+  const impuestoCategoria = calcularImpuestoAdicional(subtotal, categoria.value);
   resultadoActual = resultado;
   const descuento = resultado.descuento;
   const impuesto = resultado.impuesto;
@@ -50,6 +52,7 @@ form.addEventListener('submit', (event) => {
     '<p>Subtotal: $' + subtotal + '</p>' +
     '<p>Descuento (' + descuento.porcentaje + '%): $' + descuento.monto + '</p>' +
     '<p>Impuesto (' + impuesto.porcentaje + '%): $' + impuesto.monto + '</p>' +
+    '<p>Impuesto adicional de categoría (' + impuestoCategoria.porcentaje + '%): $' + impuestoCategoria.monto + '</p>' +
     '<p>Total: $' + resultado.total + '</p>';
 });
 

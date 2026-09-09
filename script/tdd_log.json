@@ -478,9 +478,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3bb55dc4cbeff393712102457230000ac8af0c51",
     "commitName": "feat: seleccionar categoria por defecto",
     "commitTimestamp": 1788920214774,
     "testId": 21
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788921041448,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788921064321,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto adicional de categoria",
+    "commitTimestamp": 1788921088188,
+    "testId": 22
   }
 ]

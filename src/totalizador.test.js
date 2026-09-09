@@ -1,6 +1,7 @@
 import calcularSubtotal, {
   calcularDescuento,
   calcularImpuesto,
+  calcularImpuestoAdicional,
   calcularTotal,
   cancelarCompra,
   confirmarCompra,
@@ -162,6 +163,16 @@ describe('Impuesto por estado', () => {
 
     // Assert
     expect(impuesto).toEqual({ porcentaje: 4, monto: 4 });
+  });
+});
+
+describe('Impuesto adicional por categoría', () => {
+  it('no aplica impuesto adicional a Varios', () => {
+    const subtotal = 100;
+    const categoria = 'Varios';
+    const impuesto = calcularImpuestoAdicional(subtotal, categoria);
+
+    expect(impuesto).toEqual({ porcentaje: 0, monto: 0 });
   });
 });
 

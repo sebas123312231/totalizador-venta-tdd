@@ -30,6 +30,15 @@ function obtenerCategoriaPorDefecto() {
   return 'Varios';
 }
 
+function calcularImpuestoAdicional(subtotal, categoria) {
+  if (categoria === 'Varios') {
+    const porcentaje = 0;
+    return { porcentaje, monto: subtotal * porcentaje / 100 };
+  }
+
+  return { porcentaje: 0, monto: 0 };
+}
+
 function calcularImpuesto(subtotal, estado) {
   if (estado === 'CA') {
     const porcentaje = 8.25;
@@ -100,6 +109,7 @@ function cancelarCompra() {
 export {
   calcularDescuento,
   calcularImpuesto,
+  calcularImpuestoAdicional,
   calcularTotal,
   cancelarCompra,
   confirmarCompra,
