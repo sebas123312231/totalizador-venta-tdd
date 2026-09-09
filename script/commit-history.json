@@ -1026,12 +1026,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3dee93baf05f9613dfa91a78c271f00b536e80b5",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T23:09:25.000Z",
       "message": "feat: incluir descuento de envio en el total",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/3dee93baf05f9613dfa91a78c271f00b536e80b5"
     },
     "stats": {
       "total": 13,
@@ -1041,6 +1041,25 @@
     },
     "coverage": 93.55,
     "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T23:10:38.000Z",
+      "message": "feat: incluir beneficio especial en el total",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.6,
+    "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"
   }

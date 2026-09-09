@@ -1180,9 +1180,31 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3dee93baf05f9613dfa91a78c271f00b536e80b5",
     "commitName": "feat: incluir descuento de envio en el total",
     "commitTimestamp": 1788995366269,
     "testId": 54
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1788995401578,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1788995419637,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir beneficio especial en el total",
+    "commitTimestamp": 1788995439081,
+    "testId": 55
   }
 ]

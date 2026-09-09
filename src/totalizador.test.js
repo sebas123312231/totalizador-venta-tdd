@@ -513,6 +513,15 @@ describe('Total de la compra', () => {
 
     expect(resultado.total).toBe(207.75);
   });
+
+  it('resta el beneficio especial del total', () => {
+    const subtotal = 3001;
+    const estado = 'CA';
+    const opciones = { beneficioEspecial: 100 };
+    const resultado = calcularTotal(subtotal, estado, opciones);
+
+    expect(resultado.total).toBe(2986.153375);
+  });
 });
 
 describe('Confirmación de compra', () => {
