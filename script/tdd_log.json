@@ -1136,9 +1136,31 @@
     "testId": 52
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c8e8ead9dd4755ef6db5a80fb27350fbcecf193a",
     "commitName": "feat: incluir descuento de categoria en el total",
     "commitTimestamp": 1788995229923,
     "testId": 52
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 1,
+    "numTotalTests": 51,
+    "timestamp": 1788995266207,
+    "success": false,
+    "testId": 53
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1788995282707,
+    "success": true,
+    "testId": 53
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir impuesto de categoria en el total",
+    "commitTimestamp": 1788995302556,
+    "testId": 53
   }
 ]

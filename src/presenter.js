@@ -67,6 +67,7 @@ form.addEventListener('submit', (event) => {
   const resultado = calcularTotal(subtotal, estado.value, {
     costoEnvio: costoEnvio.total,
     descuentoCategoria: descuentoCategoria.monto,
+    impuestoCategoria: impuestoCategoria.monto,
   });
   resultadoActual = resultado;
   const descuento = resultado.descuento;

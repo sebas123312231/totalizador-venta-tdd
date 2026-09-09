@@ -495,6 +495,15 @@ describe('Total de la compra', () => {
 
     expect(resultado.total).toBe(106.25);
   });
+
+  it('incluye el impuesto adicional de categoria en el total', () => {
+    const subtotal = 100;
+    const estado = 'CA';
+    const opciones = { impuestoCategoria: 3 };
+    const resultado = calcularTotal(subtotal, estado, opciones);
+
+    expect(resultado.total).toBe(111.25);
+  });
 });
 
 describe('Confirmación de compra', () => {

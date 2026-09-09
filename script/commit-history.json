@@ -988,12 +988,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c8e8ead9dd4755ef6db5a80fb27350fbcecf193a",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-09T23:07:09.000Z",
       "message": "feat: incluir descuento de categoria en el total",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/c8e8ead9dd4755ef6db5a80fb27350fbcecf193a"
     },
     "stats": {
       "total": 17,
@@ -1003,6 +1003,25 @@
     },
     "coverage": 93.44,
     "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-09T23:08:21.000Z",
+      "message": "feat: incluir impuesto de categoria en el total",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.5,
+    "test_count": 51,
     "failed_tests": 0,
     "conclusion": "success"
   }
