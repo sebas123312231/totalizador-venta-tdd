@@ -1202,9 +1202,31 @@
     "testId": 55
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3d729c8ae6f2cf7a0d1117e7316051be3e747ee9",
     "commitName": "feat: incluir beneficio especial en el total",
     "commitTimestamp": 1788995439081,
     "testId": 55
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 1,
+    "numTotalTests": 54,
+    "timestamp": 1789000804038,
+    "success": false,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1789000850454,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: validar cantidad no numerica",
+    "commitTimestamp": 1789000890262,
+    "testId": 56
   }
 ]

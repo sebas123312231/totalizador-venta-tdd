@@ -3,6 +3,10 @@ function calcularSubtotal(cantidad, precioUnitario) {
 }
 
 function validarCantidad(cantidad) {
+  if (Number.isNaN(cantidad)) {
+    return 'La cantidad debe ser un número válido.';
+  }
+
   if (cantidad <= 0) {
     return 'La cantidad debe ser mayor que cero.';
   }

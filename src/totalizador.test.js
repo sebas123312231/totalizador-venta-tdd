@@ -53,6 +53,17 @@ describe('Validación de cantidad', () => {
     // Assert
     expect(mensaje).toBe('La cantidad debe ser mayor que cero.');
   });
+
+  it('indica que una cantidad no numérica es inválida', () => {
+    // Arrange
+    const cantidad = Number.NaN;
+
+    // Act
+    const mensaje = validarCantidad(cantidad);
+
+    // Assert
+    expect(mensaje).toBe('La cantidad debe ser un número válido.');
+  });
 });
 
 describe('Validación de precio', () => {
