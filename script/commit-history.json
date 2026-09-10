@@ -1064,12 +1064,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "66621734d65c881f5214239be71688cf9c860e1e",
     "author": "sebas123312231",
     "commit": {
       "date": "2026-09-10T00:41:29.000Z",
       "message": "fix: validar cantidad no numerica",
-      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/66621734d65c881f5214239be71688cf9c860e1e"
     },
     "stats": {
       "total": 15,
@@ -1078,6 +1078,25 @@
       "date": "2026-09-10"
     },
     "coverage": 93.7,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "sebas123312231",
+    "commit": {
+      "date": "2026-09-10T02:03:18.000Z",
+      "message": "refactor: simplificar calculo de descuento de envio",
+      "url": "https://github.com/sebas123312231/totalizador-venta-tdd/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 7,
+      "deletions": 17,
+      "date": "2026-09-10"
+    },
+    "coverage": 94.26,
     "test_count": 54,
     "failed_tests": 0,
     "conclusion": "success"

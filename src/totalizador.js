@@ -78,27 +78,17 @@ function calcularCostoEnvio(peso, cantidad) {
 }
 
 function calcularDescuentoEnvio(costoEnvio, tipoCliente) {
-  if (tipoCliente === 'Normal') {
-    const porcentaje = 0;
-    return { porcentaje, monto: costoEnvio * porcentaje / 100 };
-  }
+  let porcentaje = 0;
 
   if (tipoCliente === 'Recurrente') {
-    const porcentaje = 0.5;
-    return { porcentaje, monto: costoEnvio * porcentaje / 100 };
+    porcentaje = 0.5;
+  } else if (tipoCliente === 'Antiguo Recurrente') {
+    porcentaje = 1;
+  } else if (tipoCliente === 'Especial') {
+    porcentaje = 1.5;
   }
 
-  if (tipoCliente === 'Antiguo Recurrente') {
-    const porcentaje = 1;
-    return { porcentaje, monto: costoEnvio * porcentaje / 100 };
-  }
-
-  if (tipoCliente === 'Especial') {
-    const porcentaje = 1.5;
-    return { porcentaje, monto: costoEnvio * porcentaje / 100 };
-  }
-
-  return { porcentaje: 0, monto: 0 };
+  return { porcentaje, monto: costoEnvio * porcentaje / 100 };
 }
 
 function calcularBeneficioEspecial(precioNeto, categoria, tipoCliente) {

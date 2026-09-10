@@ -1224,9 +1224,31 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "66621734d65c881f5214239be71688cf9c860e1e",
     "commitName": "fix: validar cantidad no numerica",
     "commitTimestamp": 1789000890262,
     "testId": 56
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1789005576669,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1789005599541,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: simplificar calculo de descuento de envio",
+    "commitTimestamp": 1789005799208,
+    "testId": 57
   }
 ]
